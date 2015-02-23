@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dip">
+
+    <EditText android:id="@+id/TxtUsuario"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/usuario"
+        android:textColorHint="#9d4d3c56"
+        android:inputType="text" />
+
+    <EditText android:id="@+id/TxtPassword"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/contrasena"
+        android:textColorHint="#9d4d3c56"
+        android:inputType="textPassword" />
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button android:id="@+id/BtnAceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/aceptar"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip" />
+
+    </LinearLayout>
+</LinearLayout>

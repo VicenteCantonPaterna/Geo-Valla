@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Geovalla</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="estado_proveedor">Estado del proveedor</string>
+    <string name="posicion_actual">Posicion</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="login">Login</string>
+    <string name="aceptar">Aceptar</string>
+</resources>

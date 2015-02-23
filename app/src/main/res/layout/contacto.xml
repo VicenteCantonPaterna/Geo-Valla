@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LytContenedor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+    <TextView android:id="@+id/textCont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cambiar contacto:"
+        android:textSize="20dp" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+    <EditText android:id="@+id/editNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="#9d4d3c56"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        android:hint="Introduzca nombre" />
+
+    <EditText android:id="@+id/editTlf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="#9d4d3c56"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        android:inputType="number"
+        android:hint="Introduzca número" />
+
+    <Button android:id="@+id/BtnAceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Aceptar" />
+
+</LinearLayout>

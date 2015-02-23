@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LytContenedor"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+>
+
+    <Button android:id="@+id/BtnUsuario"
+        android:layout_width="90pt"
+        android:layout_height="20pt"
+        android:layout_gravity="center"
+        android:text="Cambiar Usuario" />
+
+    <Button android:id="@+id/BtnCentro"
+        android:layout_width="90pt"
+        android:layout_height="20pt"
+        android:layout_gravity="center"
+        android:text="Cambiar centro" />
+
+    <Button android:id="@+id/BtnRadio"
+        android:layout_width="90pt"
+        android:layout_height="20pt"
+        android:layout_gravity="center"
+        android:text="Cambiar radio" />
+
+    <Button android:id="@+id/BtnContacto"
+        android:layout_width="90pt"
+        android:layout_height="20pt"
+        android:layout_gravity="center"
+        android:text="Cambiar contacto" />
+
+    <Button android:id="@+id/BtnDescon"
+        android:layout_width="90pt"
+        android:layout_height="20pt"
+        android:layout_gravity="center"
+        android:text="Desconectar" />
+
+</LinearLayout>

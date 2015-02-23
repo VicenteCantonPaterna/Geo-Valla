@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:id="@+id/LytContenedor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+
+
+            >
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:visibility="visible"
+                android:weightSum="1">
+                <ImageView
+                    android:id="@+id/smsImage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="84dp"
+                    android:background="@drawable/smsactivo"
+                    android:layout_centerVertical="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                >
+
+                <ImageView
+                    android:id="@+id/rangeImage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/dentro"
+                    android:layout_centerVertical="true"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+
+            >
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/gpsImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gpson"
+                    android:layout_centerVertical="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                >
+
+
+                <Button
+                    android:layout_width="86dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/config"
+                    android:id="@+id/BtnConfig"
+                    />
+
+            </LinearLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
